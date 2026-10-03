@@ -1,0 +1,13 @@
+C:\Users\Edwin Reyes\NeoProjects\neo-hello-wold\neo-hello-basic\bin\Debug\net10.0\neo-hello-basic.deps.json
+C:\Users\Edwin Reyes\NeoProjects\neo-hello-wold\neo-hello-basic\bin\Debug\net10.0\neo-hello-basic.dll
+C:\Users\Edwin Reyes\NeoProjects\neo-hello-wold\neo-hello-basic\bin\Debug\net10.0\neo-hello-basic.pdb
+C:\Users\Edwin Reyes\NeoProjects\neo-hello-wold\neo-hello-basic\obj\Debug\net10.0\neo-hello-basic.csproj.AssemblyReference.cache
+C:\Users\Edwin Reyes\NeoProjects\neo-hello-wold\neo-hello-basic\obj\Debug\net10.0\neo-hello-basic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edwin Reyes\NeoProjects\neo-hello-wold\neo-hello-basic\obj\Debug\net10.0\neo-hello-basic.AssemblyInfoInputs.cache
+C:\Users\Edwin Reyes\NeoProjects\neo-hello-wold\neo-hello-basic\obj\Debug\net10.0\neo-hello-basic.AssemblyInfo.cs
+C:\Users\Edwin Reyes\NeoProjects\neo-hello-wold\neo-hello-basic\obj\Debug\net10.0\neo-hello-basic.csproj.CoreCompileInputs.cache
+C:\Users\Edwin Reyes\NeoProjects\neo-hello-wold\neo-hello-basic\obj\Debug\net10.0\neo-hello-basic.sourcelink.json
+C:\Users\Edwin Reyes\NeoProjects\neo-hello-wold\neo-hello-basic\obj\Debug\net10.0\neo-hello-basic.dll
+C:\Users\Edwin Reyes\NeoProjects\neo-hello-wold\neo-hello-basic\obj\Debug\net10.0\refint\neo-hello-basic.dll
+C:\Users\Edwin Reyes\NeoProjects\neo-hello-wold\neo-hello-basic\obj\Debug\net10.0\neo-hello-basic.pdb
+C:\Users\Edwin Reyes\NeoProjects\neo-hello-wold\neo-hello-basic\obj\Debug\net10.0\ref\neo-hello-basic.dll

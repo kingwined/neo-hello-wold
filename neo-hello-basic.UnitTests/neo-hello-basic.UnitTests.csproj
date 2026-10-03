@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <ContractArtifactsPath>..\neo-hello-basic\bin\sc\Contract.artifacts.cs</ContractArtifactsPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="MSTest.TestAdapter" Version="3.9.3" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.9.3" />
+    <PackageReference Include="Neo.SmartContract.Testing" Version="3.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\neo-hello-basic\neo-hello-basic.csproj" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+
+  <Target Name="IncludeContractTestingArtifacts" BeforeTargets="CoreCompile">
+    <Error Condition="!Exists('$(ContractArtifactsPath)')" Text="Contract testing artifacts were not found at $(ContractArtifactsPath)." />
+
+    <ItemGroup>
+      <Compile Include="$(ContractArtifactsPath)" Link="TestingArtifacts\Contract.artifacts.cs" Visible="false" />
+    </ItemGroup>
+  </Target>
+
+</Project>
